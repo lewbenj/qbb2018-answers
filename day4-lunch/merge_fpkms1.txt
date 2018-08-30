@@ -1,0 +1,8 @@
+Index(['FBtr0302347', 'FBtr0113885', 'FBtr0301810', 'FBtr0113895',
+       'FBtr0345179', 'FBtr0301812', 'FBtr0113990', 'FBtr0113989',
+       'FBtr0078962', 'FBtr0078964',
+       ...
+       'FBtr0100863', 'FBtr0100864', 'FBtr0100867', 'FBtr0100868',
+       'FBtr0100870', 'FBtr0100877', 'FBtr0100879', 'FBtr0100884',
+       'FBtr0100886', 'FBtr0100888'],
+      dtype='object', name='t_name', length=6815)
