@@ -10,8 +10,6 @@ import matplotlib.pyplot as plt
 
 
 
-
-#coi = ["chr", "start", "end", "t_name"]
 ctab_file = open(sys.argv[1])
 
 
@@ -41,34 +39,3 @@ for i, line in enumerate(ctab_file):
 
 
 
-# df = pd.read_csv(sys.argv[1], sep = "\t")
-# #width = df.loc[:, "end"] - df.loc[:, "start"] + 1
-# promoter_start = 0
-# promoter_end = 0
-# df1 = df.assign(score=promoter_start)
-# df2 = df.assign(score=promoter_end)
-# #suggest use .loc over [] or can use (i).loc [] to separate by index
-# coi = ["chr", "start", "end", "t_name"]
-#
-# for i in coi:
-#     if "strand" == "+":
-#         promoter_start = df.loc[:, "start"] + 500
-#         promoter_end = df.loc[:, "start" ] + 500
-#
-#     elif "strand" in "+":
-#         promoter_start = df.loc[:, "end"] - 500
-#         promoter_end = df.loc[:, "end" ] - 500
-#
-# df2.loc[:, coi[0: 5]].to_csv(sys.stdout, sep="\t", index=False )
-
-
-
-
-
-#df = pd.read_csv(sys.argv[1], index_col=0)
-
-# my_dist = 0
-# if find_pos < gene_start:
-# my_dist = gene_start - find_pos
-# elif find_pos > gene_end:
-# my_dist = find_pos – gene_end
