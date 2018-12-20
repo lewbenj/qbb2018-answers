@@ -7,7 +7,7 @@ import numpy as np
 import math
 
 "Usage: Produce a two panel plot containing two bar plots."
-#././chip_plot2.py gained_peaks.bed lost_peaks.bed ER4_exons.bed G1E_exons.bed
+#././chip_plot2.py gained_peaks.bed lost_peaks.bed ER4_all.bed G1E_all.bed
 
 for line in open(sys.argv[1]):
     num_lines_gained = sum(1 for line in open(sys.argv[1]))
@@ -16,10 +16,10 @@ for line in open(sys.argv[1]):
     num_lines_lost = sum(1 for line in open(sys.argv[2]))
     print(num_lines_lost)
 
-    ER4_exons = sum(1 for line in open(sys.argv[3]))
+    ER4_all = sum(1 for line in open(sys.argv[3]))
     print(ER4_exons)
 
-    G1E_exons = sum(1 for line in open(sys.argv[4]))
+    G1E_all = sum(1 for line in open(sys.argv[4]))
     print(G1E_exons)
 
 
